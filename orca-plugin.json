@@ -1,0 +1,29 @@
+{
+  "$schema": "https://raw.githubusercontent.com/stablyai/orca/main/docs/schemas/plugins/orca-plugin.v2.schema.json",
+  "manifestVersion": 2,
+  "id": "shades-of-purple",
+  "name": "Shades of Purple for Orca",
+  "version": "1.0.0",
+  "execution": "data",
+  "description": "Shades of Purple and its Super Dark style as app, syntax and terminal themes for Orca.",
+  "license": "MIT",
+  "repository": "https://github.com/vale-c/orca-shades-of-purple",
+  "engines": {
+    "orca": ">=1.4.246"
+  },
+  "contributes": {
+    "themes": [
+      { "id": "shades-of-purple", "title": "Shades of Purple", "path": "themes/shades-of-purple.json" },
+      { "id": "shades-of-purple-super-dark", "title": "Shades of Purple (Super Dark)", "path": "themes/shades-of-purple-super-dark.json" }
+    ],
+    "terminalThemes": [
+      { "id": "shades-of-purple", "title": "Shades of Purple", "path": "terminal/shades-of-purple.json" },
+      { "id": "shades-of-purple-super-dark", "title": "Shades of Purple (Super Dark)", "path": "terminal/shades-of-purple-super-dark.json" }
+    ]
+  },
+  "capabilities": [],
+  "cover": {
+    "path": "images/cover.png",
+    "alt": "Shades of Purple for Orca: the plugin name and its two styles beside Orca's editor in Shades of Purple and Super Dark"
+  }
+}
