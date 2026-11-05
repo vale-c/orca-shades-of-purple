@@ -1,0 +1,18 @@
+[
+  {
+    "theme": "shades-of-purple",
+    "kind": "app",
+    "name": "--git-decoration-ignored",
+    "source": "gitDecoration.ignoredResourceForeground",
+    "upstream": "#645e97",
+    "shipped": "#6e69a3"
+  },
+  {
+    "theme": "shades-of-purple-super-dark",
+    "kind": "app",
+    "name": "--git-decoration-ignored",
+    "source": "gitDecoration.ignoredResourceForeground",
+    "upstream": "#5d5789",
+    "shipped": "#635e90"
+  }
+]
