@@ -1,0 +1,58 @@
+{
+  "$schema": "https://raw.githubusercontent.com/stablyai/orca/main/docs/schemas/plugins/orca-catalog.v2.schema.json",
+  "catalogVersion": 2,
+  "name": "Shades of Purple for Orca",
+  "owner": "vale-c",
+  "plugins": [
+    {
+      "id": "vale-c.shades-of-purple",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/vale-c/orca-shades-of-purple.git",
+        "ref": "main"
+      },
+      "description": "Shades of Purple and its Super Dark style as app, syntax and terminal themes for Orca.",
+      "categories": [
+        "themes",
+        "terminal-themes"
+      ],
+      "releases": [
+        {
+          "version": "1.0.0",
+          "commit": "a651ef1000901b43199f6035caf506032107722a",
+          "contentHash": "04e508c7d715ecae02ac73179826b74df96c7e68b99df42ee9be8e7c2493b148",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "Shades of Purple for Orca",
+          "contributes": [
+            {
+              "kind": "themes",
+              "name": "Shades of Purple"
+            },
+            {
+              "kind": "themes",
+              "name": "Shades of Purple (Super Dark)"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Shades of Purple"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Shades of Purple (Super Dark)"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "images/cover.png",
+              "alt": "Shades of Purple for Orca: the plugin name and its two styles beside Orca's editor in Shades of Purple and Super Dark",
+              "sha256": "cdbf4672d96baa3c215d142e7387742926ae3fdff7de1811845498d4e7197908",
+              "width": 1600,
+              "height": 1000
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
